@@ -1,0 +1,30 @@
+{
+  "name": "js-excel",
+  "version": "1.0.0",
+  "description": "JavaScript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/platonovAlexey/js-excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Alexey Platonov <kalyawe4ka@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/platonovAlexey/js-excel/issues"
+  },
+  "homepage": "https://github.com/platonovAlexey/js-excel#readme",
+  "devDependencies": {
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
