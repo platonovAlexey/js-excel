@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "~normalize.css";
 
+@import "variables";
+@import "mixins";
+
 @import "header";
 @import "toolbar";
 @import "formula";
@@ -25,4 +28,9 @@ body{
     height: 100%;
     max-width: 100%;
     font-size: .8rem;
+}
+
+.selected{
+    border: none !important;
+    outline: 2px solid $primary-color;
 }
