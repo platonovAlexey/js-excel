@@ -32,4 +32,8 @@ export class Excel {
     this.$el.append(this.getRoot())
     this.component.forEach(component => component.init())
   }
+
+  destroy() {
+    this.components.forEach(component => component.destroy())
+  }
 }
